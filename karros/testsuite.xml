@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="karros" > 
+<listeners>
+	<listener class-name="config.TestListener"/>
+</listeners>
+  <test name="karros Test" preserve-order="true" >
+    <classes>
+      <class name="karros.test.ui.KarrosTest" >
+        <methods>
+         	<include name="TC001" />
+        </methods>
+      </class>
+      <class name="karros.test.api.KarrosAPITest" >
+        <methods>
+         	<include name="TC002" />
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

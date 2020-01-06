@@ -1,0 +1,7 @@
+[ 
+   { 
+      "username":"admin@test.com",
+      "password":"test123",
+      "website":"http://ktvn-test.s3-website.us-east-1.amazonaws.com/"
+   }
+]
